@@ -22,7 +22,7 @@ export default function Home() {
                 View My Work
               </button>
             </Link>
-            <Link href={'assets/Mahmoud-Ahmed-CV.pdf'} target="_blank">
+            <Link href={'assets/Mahmoud-Ahmed-CV_2025.pdf'} target="_blank">
               <button className="p-4 rounded-lg ring-1 ring-black">
                download CV
                 </button>
