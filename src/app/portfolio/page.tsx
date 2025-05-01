@@ -12,7 +12,7 @@ const PortfolioPage = () => {
         <div className=" h-[calc(100vh-6rem)] flex justify-center items-center text-8xl text-center">
           My Works
         </div>
-        <div className="md:h-[300vh] h-auto md:pb-0 pb-6  bg-gradient-to-b to-blue-100 from-red-100">
+        <div className="md:h-[400vh] h-auto md:pb-0 pb-6  bg-gradient-to-b to-blue-100 from-red-100">
         < MyWorks />
         </div>
       </div>
