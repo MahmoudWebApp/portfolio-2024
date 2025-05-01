@@ -3,9 +3,8 @@ import ExperienceItem from './ExperienceItem'
 import { motion, useInView } from 'framer-motion'
 
 const experiencesList = [
-    { id: 1, title: "Frontend Developer", Description: "Front End Team Manager and responsible for organizing tasks for the team", dataString: "2023 - present", company: "Nasca Sy", left: true },
-    { id: 2, title: "Frontend Developer", Description: "Front End Team Manager and responsible for organizing tasks for the team", dataString: "2023 - present", company: "Free Lancer", left: false },
-    { id: 3, title: "Frontend Developer", Description: "Junior developer", dataString: "2022/04 - 2022/08", company: "Mongid", left: true },
+    { id: 1, title: "Frontend Developer", Description: "Front End Team Manager and responsible for organizing tasks for the team", dataString: "2022 - present", company: "Nasca Tech", left: true },
+    { id: 2, title: "Frontend Developer", Description: "Front End Team Manager and responsible for organizing tasks for the team", dataString: "2020 - 2022", company: "Free Lancer", left: false },
 ]
 
 

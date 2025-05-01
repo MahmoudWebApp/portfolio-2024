@@ -11,7 +11,7 @@ import Experiences from './_components/experiences/Experiences'
 
 const AboutPage = () => {
   const containerRef = useRef(null);
-  const {scrollYProgress}=useScroll({ container: containerRef })
+  const { scrollYProgress } = useScroll({ container: containerRef })
 
 
   return (
@@ -24,7 +24,7 @@ const AboutPage = () => {
           <div className="  flex flex-col gap-12 justify-center">
             <h2 className='font-bold text-2xl'>  BIOGRAPHY</h2>
             <p className='text-lg'>
-            My name is Mahmoud Al-Ahmad, and I was born in 1987. I am currently single and have been working as a front-end developer for over three years. I graduated with a degree in information engineering from the Syrian Virtual University.            </p>
+              My name is Mahmoud Al-Ahmad. I am a dedicated and detail-oriented front-end developer with over five years of professional experience in building responsive, user-friendly web interfaces. I hold a degree in Information Engineering from the Syrian Virtual University, where I gained a strong foundation in software development principles and web technologies.                   </p>
             <span>&apos;Programming is the language that devices speak, and source code is a beautiful poem written by programmers.&apos;</span>
             <div className="italic">
               <Image src="/assets/signature.png" alt="the signature" width={240} height={100} />
@@ -35,13 +35,13 @@ const AboutPage = () => {
 
           </div>
           {/* Skills */}
-         <Skills/>
+          <Skills />
           {/* Experience*/}
           <Experiences />
         </div>
         {/* SVG */}
         <div className="hidden lg:block w-1/3 sticky top-0 z-30 lg:w-1/2">
-          <Brain scrollYProgress={scrollYProgress}/>
+          <Brain scrollYProgress={scrollYProgress} />
         </div>
       </div>
 
