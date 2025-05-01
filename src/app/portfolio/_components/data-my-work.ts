@@ -2,7 +2,7 @@ export interface IWorksProps {
   id: number
   title: string
   description: string
-  link: string
+  link?: string
   technoUsed: { id: string | number, techno: string }[]
   images: { id: string | number, srcImg: string }[]
 }
@@ -314,6 +314,106 @@ export const myWorks: IWorksProps[] = [
       {
         id: "img6",
         srcImg: "assets/projects/asup/asup-6.png"
+      },
+
+    ]
+  },
+  {
+    id: 7,
+    title: "PP Self",
+    description: "I was responsible for building the entire front-end interface of the web system for the Qatari Public Prosecution",
+    technoUsed: [
+      {
+        id: "tech-1",
+        techno: "Angular"
+      },
+      {
+        id: "tech-2",
+        techno: "Ngrx"
+      },
+      {
+        id: "tech-3",
+        techno: "Angular Material"
+      },
+      {
+        id: "tech-3",
+        techno: "Ngx DataTable"
+      },
+  
+     
+   
+    ],
+    images: [
+      {
+        id: "img1",
+        srcImg: "assets/projects/pps/pps-1.png"
+      },
+      {
+        id: "img2",
+        srcImg: "assets/projects/pps/pps-2.png"
+      },
+      {
+        id: "img3",
+        srcImg: "assets/projects/pps/pps-3.png"
+      },
+      {
+        id: "img4",
+        srcImg: "assets/projects/pps/pps-4.png"
+      },
+      {
+        id: "img5",
+        srcImg: "assets/projects/pps/pps-5.png"
+      },
+      {
+        id: "img6",
+        srcImg: "assets/projects/pps/pps-6.png"
+      },
+
+    ]
+  },
+  {
+    id: 7,
+    title: "Aqarat",
+    description: "I was responsible for building the entire front-end interface of the web system for the General Real Estate Regulatory Authority – Aqarat Qatar",
+    link:'https://www.aqarat.gov.qa/',
+    technoUsed: [
+      {
+        id: "tech-1",
+        techno: "WordPress"
+      },
+      {
+        id: "tech-2",
+        techno: "PHP"
+      },
+      {
+        id: "tech-3",
+        techno: "SQL"
+      },
+    ],
+    images: [
+      {
+        id: "img1",
+        srcImg: "assets/projects/aq/aq-1.png"
+      },
+      {
+        id: "img2",
+        srcImg: "assets/projects/aq/aq-2.png"
+      },
+      {
+        id: "img3",
+        srcImg: "assets/projects/aq/aq-3.png"
+      },
+      {
+        id: "img4",
+        srcImg: "assets/projects/aq/aq-4.png"
+      },
+      {
+        id: "img5",
+        srcImg: "assets/projects/aq/aq-5.png"
+      },
+      {
+        id: "img6",
+        srcImg: "assets/projects/aq/aq-6.png"
       },
 
     ]
