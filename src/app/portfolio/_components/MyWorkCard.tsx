@@ -28,10 +28,7 @@ const MyWorkCard: React.FC<{ data: IWorksProps }> = (props) => {
             loop={true}
             spaceBetween={10}
             navigation={true}
-            autoplay={{
-              delay: 2500,
-              disableOnInteraction: false,
-            }}
+           
             speed={2000}
             thumbs={{ swiper: thumbsSwiper }}
             modules={[FreeMode, Navigation, Thumbs, Autoplay]}
@@ -46,10 +43,7 @@ const MyWorkCard: React.FC<{ data: IWorksProps }> = (props) => {
           <Swiper
             onSwiper={setThumbsSwiper}
             loop={true}
-            autoplay={{
-              delay: 2500,
-              disableOnInteraction: false,
-            }}
+         
             speed={2000}
             spaceBetween={10}
             slidesPerView={4}

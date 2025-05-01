@@ -7,7 +7,7 @@ const skillsList = [
   { id: 2, title: "CSS" },
   { id: 3, title: "JAVASCRIPT" },
   { id: 4, title: "TYPESCRIPT" },
-  { id: 5, title: "REACT JS " },
+  { id: 5, title: "REACT JS" },
   { id: 6, title: "REDUX JS" },
   { id: 7, title: "BOOTSTRAP" },
   { id: 8, title: "TAILWIND" },
@@ -15,7 +15,10 @@ const skillsList = [
   { id: 10, title: "MATERIEL UI" },
   { id: 11, title: "GIT & GITHUB" },
   { id: 12, title: "NEXT JS" },
-  { id: 13, title: "WORDPRESS" }
+  { id: 13, title: "WORDPRESS" },
+  { id: 14, title: "ANGULAR" },
+  { id: 15, title: "JQUERY" },
+  { id: 16, title: "PHP" }
 ]
 
 const Skills: React.FC = () => {
