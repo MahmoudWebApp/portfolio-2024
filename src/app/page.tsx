@@ -8,7 +8,7 @@ export default function Home() {
     <motion.div className="h-full" initial={{ y: "-200vh" }} animate={{ y: "0%" }} transition={{ duration: 1 }}>
       <div className="h-full flex lg:flex-row flex-col px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 gap-12">
         {/* Image container */}
-        <div className="h-1/2 lg:h-full lg:w-1/2 relative">
+        <div className="h-[40%] lg:h-full lg:w-1/2 relative">
           <Image src="/assets/hero.png" fill alt="" className="object-contain" />
         </div>
         {/* Text container */}
