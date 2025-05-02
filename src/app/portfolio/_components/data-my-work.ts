@@ -166,7 +166,7 @@ export const myWorks: IWorksProps[] = [
     id: 4,
     title: "Nasca Tech",
     description: "Nasca Tech Company website, defining the services provided by the company, and its latest news",
-    link: "https://qnbn.qa/",
+    link: "https://nasca.tech/",
     technoUsed: [
       {
         id: "tech-1",
